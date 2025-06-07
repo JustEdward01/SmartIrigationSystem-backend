@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+*.env
+*.venv
+
+# Log files
+*.log
+
+# Model files (nu urca modelele mari pe GitHub public!)
+*.h5
+*.joblib
+*.keras
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data
+data/

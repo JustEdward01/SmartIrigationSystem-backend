@@ -1,0 +1,133 @@
+{
+  "rosie": {
+    "name": "Roșie",
+    "scientificName": "Solanum lycopersicum",
+    "image": "🍅",
+    "description": "Plantă legumicolă anuală, iubitoare de soare, cultivată pentru fructe bogate în vitamine.",
+    "soilType": {
+      "type": "Sol fertil",
+      "icon": "🌱",
+      "details": "Sol bogat în materie organică, drenat, cu pH 6-7."
+    },
+    "watering": {
+      "frequency": "Udare regulată, sol mereu reavăn.",
+      "idealMoisture": "60-80%",
+      "tips": "Evită băltirea, udă la bază, nu pe frunze."
+    },
+    "commonProblems": [
+      {
+        "problem": "Frunze galbene",
+        "causes": ["Deficit azot", "Udare neregulată"],
+        "solutions": ["Fertilizează cu azot", "Menține solul reavăn"]
+      },
+      {
+        "problem": "Mucegai",
+        "causes": ["Umiditate ridicată", "Frunze ude"],
+        "solutions": ["Aerisește", "Taie frunzele bolnave", "Aplică fungicid"]
+      }
+    ],
+    "seasonalTips": {
+      "spring": "Semănat și plantat în solar. Asigură protecție la frig.",
+      "summer": "Udă regulat, asigură lumină maximă și fertilizare.",
+      "autumn": "Redu treptat udarea, culege roadele coapte.",
+      "winter": "Păstrează plantele la cald (dacă e posibil), cu udare minimă."
+    }
+  },
+  "busuioc": {
+    "name": "Busuioc",
+    "scientificName": "Ocimum basilicum",
+    "image": "🌿",
+    "description": "Planta aromatică, utilizată la gătit, cu frunze verzi și parfumate.",
+    "soilType": {
+      "type": "Sol bogat, drenaj bun",
+      "icon": "🌱",
+      "details": "Sol ușor, fertil, bine drenat, pH 6-7."
+    },
+    "watering": {
+      "frequency": "Menține solul reavăn, dar nu îmbibat.",
+      "idealMoisture": "50-70%",
+      "tips": "Udă dimineața devreme, evită apa pe frunze."
+    },
+    "commonProblems": [
+      {
+        "problem": "Frunze galbene",
+        "causes": ["Udare excesivă", "Sol greu, compactat"],
+        "solutions": ["Redu udarea", "Folosește sol afânat, bine drenat"]
+      },
+      {
+        "problem": "Mucegai",
+        "causes": ["Umiditate excesivă", "Circulație slabă a aerului"],
+        "solutions": ["Aerisește", "Aplică tratament fungicid"]
+      }
+    ],
+    "seasonalTips": {
+      "spring": "Poate fi semănat în casă sau solar.",
+      "summer": "Udă regulat și culege vârfurile pentru ramificare.",
+      "autumn": "Redu udarea, protejează la frig.",
+      "winter": "Se păstrează ca plantă de interior, cu lumină bună."
+    }
+  },
+  "ficus": {
+    "name": "Ficus",
+    "scientificName": "Ficus elastica",
+    "image": "🌳",
+    "description": "Planta decorativă de interior, apreciată pentru frunzele sale lucioase.",
+    "soilType": {
+      "type": "Amestec universal, drenaj bun",
+      "icon": "🌱",
+      "details": "Sol pentru plante de apartament, pH neutru, cu perlit pentru drenaj."
+    },
+    "watering": {
+      "frequency": "Udare moderată, la 5-7 zile.",
+      "idealMoisture": "40-60%",
+      "tips": "Udă doar când stratul superior e uscat, evită excesul de apă."
+    },
+    "commonProblems": [
+      {
+        "problem": "Frunze uscate",
+        "causes": ["Aer uscat", "Lipsă apă", "Curent rece"],
+        "solutions": ["Crește umiditatea aerului", "Udă regulat", "Ferește de curent și schimbări bruște"]
+      }
+    ],
+    "seasonalTips": {
+      "spring": "Poate fi transplantat și fertilizat.",
+      "summer": "Udă regulat, asigură umiditate aer ridicată.",
+      "autumn": "Redu fertilizarea, adaptează udarea la temperatură.",
+      "winter": "Udă rar, evită frigul și curenții de aer rece."
+    }
+  },
+  "cactus": {
+    "name": "Cactus",
+    "scientificName": "Cactaceae",
+    "image": "🌵",
+    "description": "Plante suculente adaptate la condiții aride, necesită îngrijire minimă.",
+    "soilType": {
+      "type": "Substrat pentru cactuși",
+      "icon": "🪴",
+      "details": "Sol nisipos, extrem de bine drenat, special pentru cactuși."
+    },
+    "watering": {
+      "frequency": "O dată la 2-3 săptămâni. Udați doar când solul e complet uscat.",
+      "idealMoisture": "10-20%",
+      "tips": "Iarna aproape deloc, vara la intervale mari."
+    },
+    "commonProblems": [
+      {
+        "problem": "Pete maronii",
+        "causes": ["Udare excesivă", "Ventilație slabă"],
+        "solutions": ["Redu udarea", "Verifică rădăcinile pentru putregai"]
+      },
+      {
+        "problem": "Frunze galbene",
+        "causes": ["Lumină insuficientă", "Sol greșit"],
+        "solutions": ["Mută la lumină puternică", "Folosește substrat pentru cactuși"]
+      }
+    ],
+    "seasonalTips": {
+      "spring": "Începe udarea treptat, mută la lumină intensă.",
+      "summer": "Udă la 2-3 săptămâni, asigură soare direct.",
+      "autumn": "Redu udarea, pregătește pentru repaus.",
+      "winter": "Nu uda, ține în loc luminos și răcoros."
+    }
+  }
+}

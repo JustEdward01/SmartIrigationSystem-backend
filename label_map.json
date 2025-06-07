@@ -1,0 +1,6 @@
+{
+  "healthy": 0,
+  "spots_mold": 1,
+  "wilting": 2,
+  "yellow_leaves": 3
+}
