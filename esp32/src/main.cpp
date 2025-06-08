@@ -3,6 +3,7 @@
 #include <ArduinoJson.h>
 #include <DHT.h>
 #include <WebServer.h>
+#include "sensors.h"
 #include "FS.h"
 #include "SPIFFS.h"
 #include "esp_task_wdt.h"
@@ -182,14 +183,14 @@ void flushBufferToServer() {
   Serial.println("✅ Buffer golit complet");
 }
 
+// Read all sensors and return JSON payload
+
 // === SENSORS ===
 String collectSensorJSON() {
-  int soil_raw = analogRead(SOIL_MOISTURE_AO_PIN);
-  float soil_percent = 100.0 * (4095 - soil_raw) / 4095.0;
-  int light_raw = analogRead(LIGHT_AO_PIN);
-  float light_value = map(light_raw, 0, 4095, 0, 60000);
-  float temp = dht.readTemperature();
-  float humidity = dht.readHumidity();
+  float soil_percent = readSoilMoisture(SOIL_MOISTURE_AO_PIN);
+  float light_value = readLight(LIGHT_AO_PIN);
+  float temp = readTemperature(dht);
+  float humidity = readHumidity(dht);
 
   StaticJsonDocument<256> doc;
   doc["plant_type"] = "rosie";
