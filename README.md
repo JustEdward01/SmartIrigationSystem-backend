@@ -2,13 +2,15 @@
 
 Backend FastAPI pentru sistemul SmartPlant (udare automată).
 
+[![CI](https://github.com/yourusername/SmartIrigationSystem-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/SmartIrigationSystem-backend/actions/workflows/ci.yml)
+
 ## Cum pornești local
 
 1. Instalează dependențele:
-   pip install -r requirements.txt
+   `./scripts/setup_dev_env.sh`
 
 2. Rulează serverul local:
-   uvicorn app.main:app --reload
+   `uvicorn main:app --reload`
 
 Accesează: http://localhost:8000
 
@@ -18,3 +20,11 @@ Accesează: http://localhost:8000
 
 ### ATENȚIE
 Copiază modelul tău ML `watering_multioutput_sklearn.pkl` în `app/ml/`
+
+## Docker
+
+Pentru rulare în containere:
+
+```bash
+docker-compose up --build
+```
