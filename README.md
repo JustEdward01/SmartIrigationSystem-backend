@@ -28,3 +28,7 @@ Pentru rulare în containere:
 ```bash
 docker-compose up --build
 ```
+
+## Firmware ESP32
+
+Instrucțiunile pentru configurarea și uploadul firmware-ului se găsesc în [esp32/README.md](esp32/README.md).
